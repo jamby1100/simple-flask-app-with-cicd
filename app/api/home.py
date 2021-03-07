@@ -79,15 +79,17 @@ def loyalty_cards_create():
     card_number = f"4444{str(random_part)}"
     table_name = os.getenv("DYNAMODB_TABLE_NAME")
 
-    data = [{
+    card_data = {
         "card_number": card_number,
         "first_name": post_body["first_name"],
         "last_name": post_body["last_name"]
-    }]
+    }
+
+    data = [card_data]
 
     DynamodbGateway.upsert(table_name, data)
 
-    return json.dumps({"status": "we created loyalty cards", "post_body": data})
+    return json.dumps({"status": "we created loyalty cards", "post_body": card_data})
 
 @api.route('/loyalty_cards/<loyalty_card_id>', methods=['GET'])
 def loyalty_cards_show(loyalty_card_id):

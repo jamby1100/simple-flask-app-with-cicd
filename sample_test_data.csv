@@ -1,6 +1,6 @@
 first_name,last_name,email,password
-Raphael,Jambalos,raphael.jambalos@gmail.com,jambyiscool,jambytoken
-Rap,Jambalos,ana.jambalos@gmail.com,anaiscool,anatoken
-Test,Jambalos,john.jambalos@gmail.com,johniscool,johntoken
-Developer,Jambalos,miguel.jambalos@gmail.com,migueliscool,migueltoken
-Manager,Jambalos,ysabelle.jambalos@gmail.com,ysabelleiscool,ysabelletoken
+raphael,jambalos,raphael.jambalos@gmail.com,authoriscool
+raphael,jambalos,test.driver@gmail.com,driveiscool
+raphael,jambalos,ultra.player@gmail.com,ultraplayeriscool
+raphael,jambalos,super.user@gmail.com,superuseriscool
+raphael,jambalos,code.maestro@gmail.com,codemaestroiscool
