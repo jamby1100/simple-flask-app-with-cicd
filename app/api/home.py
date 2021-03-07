@@ -2,7 +2,8 @@ from flask import jsonify, request, render_template, redirect, url_for, Response
 from . import api
 import os
 import json
-import numpy as np
+import random
+import string
 
 from ..gateways.dynamodb_gateway import DynamodbGateway
 
@@ -74,7 +75,7 @@ def loyalty_cards_create():
     if len(post_body["first_name"]) <= 2 or len(post_body["last_name"]) <= 2:
         return Response("{'wrong input':'last name or first name must be more than 2 letters'}", status=400, mimetype='application/json')
     
-    random_part = np.random.randint(1e11, 1e12, 1)[0]
+    random_part = ''.join(random.choice(string.digits) for _ in range(12))
     card_number = f"4444{str(random_part)}"
     table_name = os.getenv("DYNAMODB_TABLE_NAME")
 
