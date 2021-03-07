@@ -1,0 +1,44 @@
+2021-03-07 22:14:18,184 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-03-07 22:14:18,224 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/user.properties
+2021-03-07 22:14:18,225 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/system.properties
+2021-03-07 22:14:18,228 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-03-07 22:14:18,228 INFO o.a.j.JMeter: Version 5.3
+2021-03-07 22:14:18,228 INFO o.a.j.JMeter: java.version=14.0.2
+2021-03-07 22:14:18,228 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-03-07 22:14:18,229 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-03-07 22:14:18,229 INFO o.a.j.JMeter: os.arch=x86_64
+2021-03-07 22:14:18,229 INFO o.a.j.JMeter: os.version=10.15.4
+2021-03-07 22:14:18,229 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-03-07 22:14:18,232 INFO o.a.j.JMeter: java.awt.headless=null
+2021-03-07 22:14:18,233 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-03-07 22:14:18,233 INFO o.a.j.JMeter: Available Processors =4
+2021-03-07 22:14:18,250 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-03-07 22:14:18,253 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-03-07 22:14:18,253 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.3/libexec
+2021-03-07 22:14:18,253 INFO o.a.j.JMeter: user.dir  =/Users/rjambalos/repos/ecv_work/simple_loyalty_flask_app
+2021-03-07 22:14:18,254 INFO o.a.j.JMeter: PWD       =/Users/rjambalos/repos/ecv_work/simple_loyalty_flask_app
+2021-03-07 22:14:18,256 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Raphaels-MacBook-Air.local FullName: localhost
+2021-03-07 22:14:18,768 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2021-03-07 22:14:19,963 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-03-07 22:14:21,486 INFO o.j.r.JARSourceHTTP: Found cached repo
+2021-03-07 22:14:21,853 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-plugins-manager=1.4, jpgc-tst=2.5, jmeter-core=5.3, jmeter-ftp=5.3, jmeter-http=5.3, jmeter-jdbc=5.3, jmeter-jms=5.3, jmeter-junit=5.3, jmeter-java=5.3, jmeter-ldap=5.3, jmeter-mail=5.3, jmeter-mongodb=5.3, jmeter-native=5.3, jmeter-tcp=5.3, jmeter-components=5.3]
+2021-03-07 22:14:21,855 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2021-03-07 22:14:30,025 INFO o.a.j.s.FileServer: Default base='/Users/rjambalos/repos/ecv_work/simple_loyalty_flask_app'
+2021-03-07 22:14:30,031 INFO o.a.j.g.a.Load: Loading file: /Users/rjambalos/repos/ecv_work/simple_loyalty_flask_app/jmeter_test_case.jmx
+2021-03-07 22:14:30,031 INFO o.a.j.s.FileServer: Set new base='/Users/rjambalos/repos/ecv_work/simple_loyalty_flask_app'
+2021-03-07 22:14:30,260 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-03-07 22:14:30,278 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-03-07 22:14:30,279 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-03-07 22:14:30,282 INFO o.a.j.s.SaveService: Loading file: /Users/rjambalos/repos/ecv_work/simple_loyalty_flask_app/jmeter_test_case.jmx
+2021-03-07 22:14:30,504 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-03-07 22:14:30,504 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-03-07 22:14:30,504 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-03-07 22:14:30,504 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-03-07 22:14:30,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-03-07 22:14:30,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-03-07 22:14:30,975 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-03-07 22:14:30,975 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-03-07 22:14:30,975 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-03-07 22:14:30,975 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-03-07 22:14:31,282 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2021-03-07 22:14:31,623 INFO o.a.j.s.FileServer: Set new base='/Users/rjambalos/repos/ecv_work/simple_loyalty_flask_app'

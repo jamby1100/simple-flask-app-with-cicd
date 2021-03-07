@@ -1,0 +1,37 @@
+{
+  "containerDefinitions": [
+    {
+      "environment": [
+        {
+          "name": "FLASK_CONFIG",
+          "value": "production"
+        }
+      ],
+      "image": "<IMAGE1_NAME>",
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/asbetos-asbetos-production-web-logs",
+          "awslogs-region": "ap-southeast-1",
+          "awslogs-stream-prefix": "ecs"
+        },
+        "secretOptions": []
+      },
+      "name": "web",
+      "portMappings": [
+        {
+          "containerPort": 5000,
+          "protocol": "tcp"
+        }
+      ],
+      "secrets": []
+    }
+  ],
+  "cpu": "256",
+  "executionRoleArn": "arn:aws:iam::043449995291:role/asbetos-asbetos-production-ecs-service-task-execution-role",
+  "family": "asbetos-asbetos-production",
+  "memory": "512",
+  "requiresCompatibilities": [
+    "EC2"
+  ]
+}
