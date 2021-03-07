@@ -4,6 +4,7 @@ import os
 import json
 import random
 import string
+import time
 
 from ..gateways.dynamodb_gateway import DynamodbGateway
 
@@ -65,6 +66,9 @@ def loyalty_cards_create():
     post_body = build_post_body()
 
     print("LOYALTY CARDS")
+
+    time.sleep(15)
+
 
     if not authenticated():
         return Response("{'forbidden':'you are logged out'}", status=403, mimetype='application/json')

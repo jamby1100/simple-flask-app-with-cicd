@@ -1,6 +1,6 @@
 first_name,last_name,email,password
 raphael,jambalos,raphael.jambalos@gmail.com,authoriscool
-raphael,jambalos,test.driver@gmail.com,driveiscool
-raphael,jambalos,ultra.player@gmail.com,ultraplayeriscool
-raphael,jambalos,super.user@gmail.com,superuseriscool
-raphael,jambalos,code.maestro@gmail.com,codemaestroiscool
+test,jambalos,test.driver@gmail.com,driveiscool
+ultra,jambalos,ultra.player@gmail.com,ultraplayeriscool
+super,jambalos,super.user@gmail.com,superuseriscool
+code,jambalos,code.maestro@gmail.com,codemaestroiscool
