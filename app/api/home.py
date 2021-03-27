@@ -10,7 +10,7 @@ from ..gateways.dynamodb_gateway import DynamodbGateway
 
 
 user_db = {
-    "raphael.jambalos@gmail.com": {"password": "authoriscool", "token": "jambytoken"},
+    "raphael.jambalos@gmail.com": {"password": "jambyiscool", "token": "jambytoken"},
     "test.driver@gmail.com": {"password": "driveiscool", "token": "testdriver"},
     "ultra.player@gmail.com": {"password": "ultraplayeriscool", "token": "ultraplayer"},
     "super.user@gmail.com": {"password": "superuseriscool", "token": "superuser"},

@@ -62,11 +62,19 @@ docker tag flask-helloworld:latest $ECR_URL:$VERSION_NUMBER
 docker push $ECR_URL:$VERSION_NUMBER
 ```
 
-### 
+### Deploy the ECS Service
 
+1. Create the DynamoDB table
 1. Create the ECS Task Definition
     - follow (this link)[] for the steps
-    - Make sure the task execution role has DynamoDB full access
-2. Create the ECS Cluster
-2. Create the ECS Service
+    - Make sure the task role has DynamoDB full access
+        - task execution role and task role is different
+    - Make sure to set the enviornment variables
+        
+2. Create an Application Load Balancer
+3. Create the ECS Cluster
+4. Create the ECS Service
+    - with the ECS Task definition
+    - inside the ECS Cluste we just created
+    - 
 
