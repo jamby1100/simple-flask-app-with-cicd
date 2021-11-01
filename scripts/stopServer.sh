@@ -1,0 +1,1 @@
+kill $(ps aux | grep '/home/ec2-user/sample-app/venv/bin/gunicorn -b :5000' | awk '{print $2}')

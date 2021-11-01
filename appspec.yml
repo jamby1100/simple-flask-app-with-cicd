@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: app/
+    destination: /home/ec2-user/sample-app/app
+  - source: boot.sh
+    destination: /home/ec2-user/sample-app
+  - source: scripts/
+    destination: /home/ec2-user/sample-app/scripts
+  - source: main.py
+    destination: /home/ec2-user/sample-app
+  - source: config.py
+    destination: /home/ec2-user/sample-app
+  - source: requirements.txt
+    destination: /home/ec2-user/sample-app
+hooks:
+  ApplicationStop:
+    - location: scripts/stopServer.sh
+  AfterInstall:
+    - location: scripts/prepare.sh
+  ApplicationStart:
+    - location: boot.sh

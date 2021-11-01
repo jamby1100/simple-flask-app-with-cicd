@@ -15,11 +15,7 @@ This is the sample application for the demo part of my talk
 python3 -m venv venv
 source venv/bin/activate
 
-pip install flask
-pip install gunicorn
-pip install numpy
-pip install boto3
-pip freeze > requirements.txt
+pip install -r requirements.txt
 
 chmod +x boot.sh
 ```
@@ -32,7 +28,7 @@ export FLASK_APP=main.py
 export FLASK_DEBUG=1
 export SPECIALMESSAGE="This is a special message from the ship"
 export DYNAMODB_TABLE_NAME="loyalty_cards"
-export DYNAMODB_REGION_NAME="ap-southeast-1"
+export DYNAMODB_REGION_NAME="us-west-2"
 
 flask run
 ```
@@ -78,3 +74,11 @@ docker push $ECR_URL:$VERSION_NUMBER
     - inside the ECS Cluste we just created
     - 
 
+
+```sh
+pip install flask
+pip install gunicorn
+pip install numpy
+pip install boto3
+pip freeze > requirements.txt
+```
