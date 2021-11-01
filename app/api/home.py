@@ -39,7 +39,7 @@ def authenticated():
 
 @api.route('/')
 def home():
-    return json.dumps({"status": "ROCKETS RAIN FROM THE SKY SHOT DOWN BY MORE POWERFUL ROCKETS"})
+    return json.dumps({"status": "EVIL HAS ITS WAY VIA SLCK"})
 
 cards = []
 
