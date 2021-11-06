@@ -2,17 +2,17 @@ version: 0.0
 os: linux
 files:
   - source: app/
-    destination: /home/ec2-user/sample-app/app
+    destination: /home/ec2-user/simple-flask-app-with-cicd/app
   - source: boot.sh
-    destination: /home/ec2-user/sample-app
+    destination: /home/ec2-user/simple-flask-app-with-cicd
   - source: scripts/
-    destination: /home/ec2-user/sample-app/scripts
+    destination: /home/ec2-user/simple-flask-app-with-cicd/scripts
   - source: main.py
-    destination: /home/ec2-user/sample-app
+    destination: /home/ec2-user/simple-flask-app-with-cicd
   - source: config.py
-    destination: /home/ec2-user/sample-app
+    destination: /home/ec2-user/simple-flask-app-with-cicd
   - source: requirements.txt
-    destination: /home/ec2-user/sample-app
+    destination: /home/ec2-user/simple-flask-app-with-cicd
 hooks:
   ApplicationStop:
     - location: scripts/stopServer.sh
