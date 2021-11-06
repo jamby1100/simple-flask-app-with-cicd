@@ -1,1 +1,5 @@
-kill $(ps aux | grep '/home/ec2-user/simple-flask-app-with-cicd/venv/bin/gunicorn -b :5000' | awk '{print $2}') || true
+#!/bin/bash
+isExistApp=`pgrep gunicorn`
+if [[ -n  $isExistApp ]]; then
+    kill $isExistApp || true
+fi
