@@ -1,0 +1,7 @@
+virt
+venv
+venv/*
+venv/
+buildspec.yml
+appspec.yml
+README.md

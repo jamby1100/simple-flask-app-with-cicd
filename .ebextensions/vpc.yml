@@ -1,0 +1,9 @@
+option_settings:
+	aws:ec2:instances:
+		InstanceTypes: t2.micro, t2.small
+  aws:ec2:vpc:
+    VPCId: vpc-069966e4e31951d53
+    Subnets: subnet-0974148fe6404405e,subnet-0fe43cab26e0a9af7
+    ELBSubnets: subnet-0ddcbd2f18a9ebceb,subnet-013f7809aba265388	
+    ELBScheme: public
+    DBSubnets: subnet-0f64df71f6aacb76c,subnet-0d6c0a24e47c80318
